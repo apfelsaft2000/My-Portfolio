@@ -5,13 +5,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -r dist docs", 
+    "build": "vite build && cp -r dist docs",
     "rebuild": "vite build && rm -R docs && cp -r dist docs",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/base": "^5.0.0-alpha.121",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@mui/system": "^5.11.13",
+    "markdown-to-jsx": "^7.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-native-elements": "^3.4.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -34,5 +42,4 @@
     "/.eslintrc.js",
     "/vite.config.js"
   ]
-  
 }
